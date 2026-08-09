@@ -1,0 +1,112 @@
+.dashboard-page {
+  padding: 40px 24px 72px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.dashboard-header-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dashboard-eyebrow {
+  color: #d98a1c;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.dashboard-title {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.dashboard-stats {
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: #fff;
+  height: 100%;
+}
+
+.stat-card--clickable {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.stat-card--clickable:hover,
+.stat-card--clickable:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(32, 81, 47, 0.14);
+  outline: none;
+}
+
+.stat-card-icon {
+  color: #20512f;
+  margin-bottom: 8px;
+}
+
+.stat-card-icon--available {
+  color: #2f7d43;
+}
+
+.stat-card-icon--claimed {
+  color: #d98a1c;
+}
+
+.stat-card-icon--sold {
+  color: #6a6f66;
+}
+
+.dashboard-section {
+  margin-bottom: 40px;
+}
+
+.dashboard-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.empty-state {
+  background: #fff;
+  text-align: center;
+  padding: 24px;
+}
+
+.donation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.donation-row {
+  background: #fff;
+}
+
+.donation-row-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.donation-row-chip {
+  background-color: #f1ebdd !important;
+  color: #4b5647 !important;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}

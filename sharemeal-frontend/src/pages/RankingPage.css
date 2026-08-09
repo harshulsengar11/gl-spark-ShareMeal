@@ -1,0 +1,101 @@
+.ranking-page {
+  padding: 40px 24px 72px;
+}
+
+.ranking-header {
+  margin-bottom: 28px;
+  max-width: 640px;
+}
+
+.ranking-eyebrow {
+  color: #d98a1c;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.ranking-title {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.ranking-alert {
+  margin-bottom: 20px;
+}
+
+.ranking-empty {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.ranking-table-container {
+  border-radius: 18px !important;
+  overflow: hidden;
+}
+
+.ranking-th {
+  font-weight: 800 !important;
+  background-color: #f1ebdd;
+  color: #1e241d !important;
+}
+
+.ranking-row--me {
+  background-color: #fbf3e2;
+}
+
+.ranking-donor-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ranking-avatar {
+  background-color: #20512f !important;
+  font-weight: 700 !important;
+}
+
+.ranking-you-chip {
+  margin-left: 8px !important;
+  height: 20px !important;
+  font-size: 10px !important;
+  background-color: #20512f !important;
+  color: #fff !important;
+}
+
+.ranking-quantity {
+  color: #20512f;
+  font-weight: 800 !important;
+}
+
+.rank-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 40px;
+  height: 32px;
+  border-radius: 10px;
+  font-weight: 800;
+  background-color: #f1ebdd;
+  color: #4b5647;
+}
+
+.rank-badge--gold {
+  background-color: #f2a93b;
+  color: #1e241d;
+}
+
+.rank-badge--silver {
+  background-color: #d9dce0;
+  color: #1e241d;
+}
+
+.rank-badge--bronze {
+  background-color: #d9a066;
+  color: #1e241d;
+}
+
+@media (max-width: 600px) {
+  .ranking-donor-cell {
+    gap: 8px;
+  }
+}

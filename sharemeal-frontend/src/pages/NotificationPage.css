@@ -1,0 +1,92 @@
+.notification-page {
+  padding: 40px 24px 72px;
+  max-width: 780px !important;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.notification-eyebrow {
+  color: #d98a1c;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.notification-title {
+  margin-top: 4px;
+}
+
+.notification-unread-chip {
+  background-color: #20512f !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.notification-unread-chip .MuiChip-icon {
+  color: #f2c879 !important;
+}
+
+.notification-alert {
+  margin-bottom: 20px;
+}
+
+.notification-empty {
+  text-align: center;
+  padding: 72px 0;
+}
+
+.notification-empty-icon {
+  font-size: 44px !important;
+  color: #b9c2b4;
+  margin-bottom: 12px;
+}
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notification-card {
+  background: #fff;
+}
+
+.notification-card--unread {
+  border-color: #f2a93b !important;
+  background: #fffaf0;
+}
+
+.notification-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.notification-card-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.notification-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #f2a93b;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+
+.notification-timestamp {
+  display: block;
+  margin-top: 6px;
+  color: #9aa295;
+}

@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #fbf8f2 !important;
+  border-bottom: 1px solid #f1ebdd;
+}
+
+.navbar-toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.navbar-brand-icon {
+  color: #20512f;
+}
+
+.navbar-brand-text {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: #20512f;
+  letter-spacing: -0.3px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.navbar-links--desktop {
+  display: none;
+}
+
+.navbar-avatar-btn {
+  margin-left: 4px;
+}
+
+.navbar-avatar {
+  background-color: #20512f !important;
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+}
+
+.navbar-menu-info {
+  opacity: 1 !important;
+  cursor: default;
+}
+
+.navbar-menu-toggle {
+  color: #20512f;
+}
+
+.navbar-drawer {
+  width: 260px;
+  padding-top: 8px;
+}
+
+.navbar-drawer-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+@media (min-width: 900px) {
+  .navbar-links--desktop {
+    display: flex;
+  }
+
+  .navbar-menu-toggle {
+    display: none;
+  }
+}

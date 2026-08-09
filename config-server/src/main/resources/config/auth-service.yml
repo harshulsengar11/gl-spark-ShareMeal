@@ -1,0 +1,20 @@
+server:
+  port: ${AUTH_SERVICE_PORT}
+
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret-key: ${JWT_SECRET_KEY}
+  expiration: ${JWT_EXPIRATION}

@@ -1,0 +1,27 @@
+.not-found-page {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.not-found-icon {
+  font-size: 56px !important;
+  color: #20512f;
+  margin-bottom: 8px;
+}
+
+.not-found-code {
+  font-size: 4rem !important;
+  color: #f1ebdd;
+  -webkit-text-stroke: 2px #20512f;
+  margin-bottom: 4px;
+}
+
+.not-found-copy {
+  max-width: 360px;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,72 @@
+.food-list-page {
+  padding: 40px 24px 72px;
+}
+
+.food-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.food-list-eyebrow {
+  color: #d98a1c;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.food-list-title {
+  margin-top: 4px;
+}
+
+.food-list-count {
+  background-color: #20512f !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.food-list-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.food-list-status-filter {
+  min-width: 220px;
+}
+
+.food-list-city-filter {
+  min-width: 200px;
+}
+
+.food-list-alert {
+  margin-bottom: 20px;
+}
+
+.food-list-empty {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.food-list-grid {
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .food-list-filters {
+    flex-direction: column;
+  }
+
+  .food-list-status-filter {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .food-list-city-filter {
+    min-width: 0;
+    width: 100%;
+  }
+}
